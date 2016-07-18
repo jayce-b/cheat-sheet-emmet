@@ -12,3 +12,38 @@
   left: 0;
   right: 0;
 }
+
+
+#home {
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+
+/* Sticky footer styles from bootstrap library
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom in order to set footer height */
+  margin-bottom: 60px;
+}
+.footer {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #666;
+  text-align:center;
+  color: #FFF;
+
+}
